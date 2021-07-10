@@ -89,22 +89,22 @@ public class unicConvString {
 	
 	public static void main(String[] args) {
 		// 请将下面一组int值视为字符的Unicode码，把它们拼成一个字符串：
-		unicConvString uni = new unicConvString();
-		uni.check("abba");
-//		int a = 72;
-//		int b = 105;
-//		int c = 65281;
-//		char[] ac = Character.toChars(a);
-//		char[] bc = Character.toChars(b);
-//		char[] cc = Character.toChars(c);
-//		String s = Character.toString(ac[0]) + Character.toString(bc[0]) + Character.toString(cc[0]);
-//		String[] fields = { "name", "position", "salary" };
-//		StringJoiner jo = new StringJoiner(",");
-//		for(String field:fields) {
-//			jo.length();
-//		}
-//
-//		System.out.printf(jo.toString());
+//		unicConvString uni = new unicConvString();
+//		uni.check("abba");
+		int a = 72;
+		int b = 105;
+		int c = 65281;
+		char[] ac = Character.toChars(a);
+		char[] bc = Character.toChars(b);
+		char[] cc = Character.toChars(c);
+		String s = Character.toString(ac[0]) + Character.toString(bc[0]) + Character.toString(cc[0]);
+		String[] fields = { "name", "position", "salary" };
+		StringJoiner jo = new StringJoiner(",");
+		for(String field:fields) {
+			jo.length();
+		}
+
+		System.out.printf(jo.toString());
 //
 //		final int start = 10;
 //        final int end = 20;
